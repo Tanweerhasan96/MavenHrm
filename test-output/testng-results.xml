@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-23T11:47:57 IST" name="Suite" finished-at="2023-01-23T11:47:57 IST" duration-ms="97">
+    <groups>
+      <group name="smoke">
+        <method signature="Login.loginApp()[pri:0, instance:Application.Login@2667f029]" name="loginApp" class="Application.Login"/>
+        <method signature="Logout.logout()[pri:0, instance:Application.Logout@353d0772]" name="logout" class="Application.Logout"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-01-23T11:47:57 IST" name="Test" finished-at="2023-01-23T11:47:57 IST" duration-ms="97">
+      <class name="Application.Logout">
+        <test-method signature="closeBrowser()[pri:0, instance:Application.Logout@353d0772]" started-at="2023-01-23T11:47:57 IST" name="closeBrowser" finished-at="2023-01-23T11:47:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="logout()[pri:0, instance:Application.Logout@353d0772]" started-at="2023-01-23T11:47:57 IST" name="logout" finished-at="2023-01-23T11:47:57 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Application.Logout -->
+      <class name="CreateEmployee.Create">
+        <test-method signature="create()[pri:0, instance:CreateEmployee.Create@17046283]" started-at="2023-01-23T11:47:57 IST" name="create" finished-at="2023-01-23T11:47:57 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method signature="deleted()[pri:0, instance:CreateEmployee.Create@17046283]" started-at="2023-01-23T11:47:57 IST" name="deleted" finished-at="2023-01-23T11:47:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleted -->
+        <test-method signature="modify()[pri:0, instance:CreateEmployee.Create@17046283]" started-at="2023-01-23T11:47:57 IST" name="modify" finished-at="2023-01-23T11:47:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modify -->
+      </class> <!-- CreateEmployee.Create -->
+      <class name="Application.Login">
+        <test-method signature="loginApp()[pri:0, instance:Application.Login@2667f029]" started-at="2023-01-23T11:47:57 IST" name="loginApp" finished-at="2023-01-23T11:47:57 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method signature="openBrowser()[pri:0, instance:Application.Login@2667f029]" started-at="2023-01-23T11:47:57 IST" name="openBrowser" finished-at="2023-01-23T11:47:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+      </class> <!-- Application.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

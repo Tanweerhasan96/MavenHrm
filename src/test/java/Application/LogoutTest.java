@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class LogoutTest 
 {
-	@Test
+	@Test(groups="regression")
 	public void closeBrowser()
 	{
 		System.out.println("CloseBrowser");

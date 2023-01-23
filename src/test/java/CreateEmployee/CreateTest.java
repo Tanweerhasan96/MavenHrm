@@ -2,7 +2,7 @@ package CreateEmployee;
 
 import org.testng.annotations.Test;
 
-public class Create 
+public class CreateTest 
 {
 	@Test
 	public void create()

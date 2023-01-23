@@ -2,7 +2,7 @@ package Application;
 
 import org.testng.annotations.Test;
 
-public class Logout 
+public class LogoutTest 
 {
 	@Test
 	public void closeBrowser()

@@ -2,7 +2,7 @@ package Application;
 
 import org.testng.annotations.Test;
 
-public class Delete 
+public class DeleteTest 
 {
 	@Test
 	public  void delete() 

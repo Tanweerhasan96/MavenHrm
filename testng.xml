@@ -3,9 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="CreateEmployee.Create"/>
-      <class name="Application.Logout"/>
-      <class name="Application.Login"/>
+      <class name="CreateEmployee.CreateTest"/>
+      <class name="Application.LogoutTest"/>
+      <class name="Application.LoginTest"/>
+      <class name="Application.DeleteTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

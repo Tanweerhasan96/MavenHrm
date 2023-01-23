@@ -2,7 +2,7 @@ package Application;
 
 import org.testng.annotations.Test;
 
-public class Login 
+public class LoginTest 
 {
 	@Test(groups="smoke")
 	public void loginApp()

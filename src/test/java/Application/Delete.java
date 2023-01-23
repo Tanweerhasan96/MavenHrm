@@ -8,6 +8,7 @@ public class Delete
 	public  void delete() 
 	{
 	  System.out.println("deleted");
+	  System.out.println("I am Hero");
 
 	}
 

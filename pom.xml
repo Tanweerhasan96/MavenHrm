@@ -3,6 +3,7 @@
   <groupId>OrganizationName_HRM</groupId>
   <artifactId>MavenHRM</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
    <build>
     <pluginManagement>
       <plugins>
@@ -64,4 +65,8 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
+  <profiles>
+  <profile>
+  <id>smoke</id>
+  </profile></profiles>
 </project>

@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class DeleteTest 
 {
-	@Test
+	@Test(groups="regression")
 	public  void delete() 
 	{
 	  System.out.println("deleted");
